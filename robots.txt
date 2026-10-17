@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://already.toinfy.com/sitemap.xml
