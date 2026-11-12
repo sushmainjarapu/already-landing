@@ -3,30 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Support · Already</title>
 <meta name="description" content="Help with the Already app: setup, voice recordings, reminders, data and contact.">
+<link rel="canonical" href="https://already.toinfy.com/support.html">
 <meta name="theme-color" content="#0B0A14">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/hanken-grotesk-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="wrap">
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Already home"><img src="mark.svg" alt="" width="34" height="34">Already</a>
-    <nav class="nav" aria-label="Page">
-      <a href="index.html#method">Method</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </nav>
-    <a class="btn sm" href="index.html#download">Get it on iPhone</a>
-  </header>
-</div>
-<main class="doc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Already, home"><img src="mark.svg" alt="" width="30" height="30">Already</a>
+  <nav class="site-nav" aria-label="Site">
+    <a class="wide-only" href="./">The app</a>
+    <a href="support.html" aria-current="page">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </nav>
+</header>
+<main class="doc" id="main">
 <header>
   <span class="eyebrow">Support</span>
   <h1>Need a hand?</h1>
@@ -35,7 +38,7 @@
 
 <h2>Getting started</h2>
 <h3>What do I write as my intent?</h3>
-<p>One sentence about what you are becoming, in the present tense. The app then helps you add a number, a feeling and a date. "I earn more than I need from work I love" becomes "By March 2027 I earn [your number] a month from work I love, and I feel calm about money."</p>
+<p>One sentence about what you are becoming, in the present tense. The app then adds a target month and a feeling, and keeps any number you typed. "I earn more than I need, doing work I love" becomes "By March 2027 I earn more than I need, doing work I love, and I feel calm about it."</p>
 <h3>Why does the wording change when I move the belief slider?</h3>
 <p>Affirmations that feel false can backfire. Below 5 out of 10, Already uses bridge wording such as "I am becoming" or "I choose". As your belief rises, the wording firms up. You can change the score any day from the Today screen.</p>
 
@@ -43,7 +46,7 @@
 
 <h2>Voice recordings</h2>
 <h3>How do I re-record a line?</h3>
-<p>Open You, then Voice, and hold a line to re-record it. Lines also re-record automatically when the wording changes and you confirm.</p>
+<p>Open You, then Your voice, and hold a recorded line to record it again. If the wording changes with your belief score, re-record the line there so the playback matches.</p>
 <h3>Where are my recordings stored?</h3>
 <p>Only on your phone. They are never uploaded. If you delete the app, they are deleted too.</p>
 <h3>Can I skip recording?</h3>
@@ -51,7 +54,7 @@
 
 <h2>Scenes</h2>
 <h3>Where does my scene come from?</h3>
-<p>From the best-possible-morning paragraph you wrote in setup. Edit it any time from Visions or You, then tap regenerate for new sensory cues and steps.</p>
+<p>From the best-possible-morning paragraph you wrote in setup. Edit it any time from You, then Picture it. In this version the scene is illustrated, and the sensory cues and steps are a fixed set.</p>
 <h3>Can I put myself in the picture?</h3>
 <p>Not in this version. Personalised scene images are planned for a later release and will be optional.</p>
 
@@ -59,13 +62,13 @@
 <h3>Reminders are not arriving.</h3>
 <p>Check Settings, Notifications, Already is allowed, and that Focus modes are not silencing it. Reminders are scheduled locally by iOS, so no network is needed.</p>
 <h3>What is Moon rhythm?</h3>
-<p>An optional cadence: start a 21-day cycle on the next new moon and check in on the full moon. It is a rhythm some people like, not a mechanism. Turn it off in Practice settings and cycles start the day you choose.</p>
+<p>An optional cadence: the app shows the moon phase beside your cycle day, with the next new moon and full moon as check-in dates. It is a rhythm some people like, not a mechanism. Turn it on or off in You, then Practice times. Your 21-day cycle starts the day you finish setup.</p>
 <h3>I missed a day. Is my streak gone?</h3>
-<p>One missed day does not reset the cycle. Two in a row pauses it; pick up where you left off.</p>
+<p>One missed day does not break your streak. After two missed days in a row the streak starts again from your next session. Your intent, recordings and journal stay as they are.</p>
 
 <h2>Your data</h2>
 <h3>How do I delete everything?</h3>
-<p>Delete the app. All data is on the device, so nothing remains. To clear a single thing, use You, then Data.</p>
+<p>Open You and tap Start over. This clears your intent, recordings and streak on this device. Deleting the app removes everything too: all data is on the device, so nothing remains.</p>
 <h3>Can I move to a new phone?</h3>
 <p>Already is included in your iPhone backup (iCloud or computer). Restore the backup on the new phone and your practice comes with it. There is no account to sign into.</p>
 
@@ -76,16 +79,14 @@
 <p>Already supports Dynamic Type, VoiceOver labels on every control, and Reduce Motion for the breathing ring. If something is hard to use, tell us and we will fix it in the next release.</p>
 </main>
 <footer class="site-footer">
-  <div class="wrap">
-    <a class="brand" href="index.html"><img src="mark.svg" alt="" width="24" height="24">Already</a>
-    <nav aria-label="Footer">
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="support.html">Support</a>
-      <a href="mailto:support@toinfy.com">support@toinfy.com</a>
-    </nav>
-    <span>© 2026 Toinfy. Made for one person at a time.</span>
-  </div>
+  <a class="brand brand-sm" href="./"><img src="mark.svg" alt="" width="22" height="22">Already</a>
+  <nav aria-label="Footer">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:support@toinfy.com">support@toinfy.com</a>
+  </nav>
+  <p>© 2026 Toinfy. Made for one person at a time.</p>
 </footer>
 </body>
 </html>

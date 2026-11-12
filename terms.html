@@ -3,30 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Terms of use · Already</title>
 <meta name="description" content="The terms for using the Already app and website.">
+<link rel="canonical" href="https://already.toinfy.com/terms.html">
 <meta name="theme-color" content="#0B0A14">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/hanken-grotesk-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="wrap">
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Already home"><img src="mark.svg" alt="" width="34" height="34">Already</a>
-    <nav class="nav" aria-label="Page">
-      <a href="index.html#method">Method</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </nav>
-    <a class="btn sm" href="index.html#download">Get it on iPhone</a>
-  </header>
-</div>
-<main class="doc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Already, home"><img src="mark.svg" alt="" width="30" height="30">Already</a>
+  <nav class="site-nav" aria-label="Site">
+    <a class="wide-only" href="./">The app</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html" aria-current="page">Terms</a>
+  </nav>
+</header>
+<main class="doc" id="main">
 <header>
   <span class="eyebrow">Terms of use</span>
   <h1>Plain terms.</h1>
@@ -70,19 +73,16 @@
 <h2>12. Contact</h2>
 <p><a href="mailto:support@toinfy.com">support@toinfy.com</a></p>
 
-<p class="note">Have a lawyer in your jurisdiction review this page before launch.</p>
 </main>
 <footer class="site-footer">
-  <div class="wrap">
-    <a class="brand" href="index.html"><img src="mark.svg" alt="" width="24" height="24">Already</a>
-    <nav aria-label="Footer">
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="support.html">Support</a>
-      <a href="mailto:support@toinfy.com">support@toinfy.com</a>
-    </nav>
-    <span>© 2026 Toinfy. Made for one person at a time.</span>
-  </div>
+  <a class="brand brand-sm" href="./"><img src="mark.svg" alt="" width="22" height="22">Already</a>
+  <nav aria-label="Footer">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:support@toinfy.com">support@toinfy.com</a>
+  </nav>
+  <p>© 2026 Toinfy. Made for one person at a time.</p>
 </footer>
 </body>
 </html>
